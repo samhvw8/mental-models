@@ -190,6 +190,9 @@ function showDetail(idx){
   if(m.origin)h+='<div class="dsec"><h3>Origin</h3><p>'+esc(m.origin)+'</p></div>';
   h+='<div class="dsec"><h3>Problem</h3><p>'+esc(m.problem)+'</p></div>';
   h+='<div class="dsec"><h3>How it works</h3><p>'+esc(m.how_it_works||m.one_liner)+'</p></div>';
+  if(m.scenario)h+='<div class="dsec"><h3>Example Scenario</h3><p style="color:#c47a5a;font-style:italic">'+esc(m.scenario)+'</p></div>';
+  if(m.prompt)h+='<div class="dsec"><h3>Try This</h3><p style="background:#fdf3ee;padding:12px;border-radius:8px;font-size:0.9rem;line-height:1.6">'+esc(m.prompt)+'</p></div>';
+  if(m.before_after)h+='<div class="dsec"><h3>Before / After</h3><p style="font-size:0.88rem">'+esc(m.before_after)+'</p></div>';
   if(m.connects_to&&m.connects_to.length){
     h+='<div class="dsec"><h3>Connects to</h3><div class="dtags">';
     m.connects_to.forEach(function(c){
