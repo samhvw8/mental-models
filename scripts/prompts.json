@@ -1,0 +1,990 @@
+[
+  {
+    "name": "Decision Matrix",
+    "visual_prompt": "A 4x3 grid with cells filled at varying intensities, one column glowing brighter than the rest — the winner column. Weighted comparison made visible through graduated shading."
+  },
+  {
+    "name": "Impact-Effort Matrix",
+    "visual_prompt": "A 2x2 grid with axes labeled by arrows; the top-left quadrant filled with a bold star or checkmark while the bottom-right quadrant is crossed out. Priority made spatial."
+  },
+  {
+    "name": "OODA Loop",
+    "visual_prompt": "Four labeled circles — Observe, Orient, Decide, Act — connected by curved arrows forming a tight clockwise cycle, with motion lines suggesting rapid rotation. Speed encoded in the arc."
+  },
+  {
+    "name": "Cynefin Framework",
+    "visual_prompt": "A rounded square divided into four unequal quadrants with a fifth irregular void at the center, each region shaded a distinct tone. One quadrant has a jagged boundary to signal disorder."
+  },
+  {
+    "name": "Hard Choice Model",
+    "visual_prompt": "A 2x2 grid with one quadrant spotlit while the others are dim — the spotlight falls on the high-impact, low-comparability corner. A compass needle points directly at the lit quadrant."
+  },
+  {
+    "name": "Second-Order Thinking",
+    "visual_prompt": "A single arrow triggering a chain of smaller arrows that cascade in a branching tree, each generation slightly smaller and further from the origin. Downstream consequences radiating from one action."
+  },
+  {
+    "name": "Inversion",
+    "visual_prompt": "An arrow aimed forward at a goal, then curving back as a dotted return path under the same arc — the reverse route traced beneath the original. Backward thinking visualized as a mirror trajectory."
+  },
+  {
+    "name": "Pre-Mortem",
+    "visual_prompt": "A calendar page with a bold X marked on a future date, and a thought bubble emerging backward in time toward the present showing cracked or broken pieces. Imagined failure projected into the past."
+  },
+  {
+    "name": "Eisenhower Matrix",
+    "visual_prompt": "A crisp 2x2 grid with axes for Urgent and Important; the top-right quadrant has a lightning bolt, bottom-left a trash icon, top-left a clock, and bottom-right a calendar. Priority categories made iconic."
+  },
+  {
+    "name": "Six Thinking Hats",
+    "visual_prompt": "Six hats arranged in a circle, each a distinct color — white, red, black, yellow, green, blue — with all pointing inward as if worn simultaneously by the same head. Parallel perspectives unified."
+  },
+  {
+    "name": "Veil of Ignorance",
+    "visual_prompt": "A translucent curtain or veil suspended before a set of silhouetted figures in different postures — some tall, some small, one with a cane — the designer's figure hidden behind the veil. Fairness by anonymity."
+  },
+  {
+    "name": "Regret Minimization Framework",
+    "visual_prompt": "An elderly figure sitting in a rocking chair, a thought bubble above showing a forked road with one path taken and one path fading — the untaken path dimming into fog. Looking back from 80."
+  },
+  {
+    "name": "Reversible vs. Irreversible Decisions (Type 1 / Type 2)",
+    "visual_prompt": "Two doors side by side: one a revolving door (two-way, easy return) and one a vault door sealed with bolts (one-way, permanent). Door type encodes decision weight."
+  },
+  {
+    "name": "Expected Value",
+    "visual_prompt": "A probability tree branching into two outcomes — one branch thick and short (high probability, small payoff) and one thin and long (low probability, large payoff) — with a weighted midpoint marker. Risk and reward balanced on a scale."
+  },
+  {
+    "name": "Opportunity Cost",
+    "visual_prompt": "A hand reaching for one coin while a larger pile of coins sits in shadow just out of reach — the foregone alternative dimly visible behind the chosen one. The cost of the unchosen path."
+  },
+  {
+    "name": "Sunk Cost Awareness",
+    "visual_prompt": "A hole in the ground with a shovel beside it and coins disappearing into the dark below — a figure stepping away instead of continuing to dig. Sunk investment as an irretrievable pit."
+  },
+  {
+    "name": "Margin of Safety",
+    "visual_prompt": "A bridge designed to hold ten weights but only carrying three — the gap between load and capacity shown as a highlighted buffer zone. Safety encoded as visible slack between limit and use."
+  },
+  {
+    "name": "Occam's Razor",
+    "visual_prompt": "A straight razor slicing through a tangle of twisted lines, leaving a single clean straight path behind. Simplicity cut from complexity with one decisive stroke."
+  },
+  {
+    "name": "Hanlon's Razor",
+    "visual_prompt": "Two speech bubbles side by side — one with a skull (malice) crossed out with a red X, and one with a shrug or question mark (incompetence) circled in green. Benign explanation chosen over hostile."
+  },
+  {
+    "name": "Probabilistic Thinking",
+    "visual_prompt": "A fan of overlapping translucent arrows spreading from a single origin point, each at a different angle and thickness representing different probability weights. Uncertainty as a spectrum of possible futures."
+  },
+  {
+    "name": "Bayesian Updating",
+    "visual_prompt": "A balance scale where one pan holds a prior probability bar and new evidence chips fall into the other pan, tilting the scale to a revised position. Belief calibration made tangible."
+  },
+  {
+    "name": "First Principles Thinking",
+    "visual_prompt": "A complex structure deconstructed into basic geometric shapes — cube, sphere, cylinder — laid out as building blocks at the base. Reduction to irreducible truths."
+  },
+  {
+    "name": "Circle of Competence",
+    "visual_prompt": "A bold circle with a solid interior zone and a clearly marked dashed boundary ring — inside is sharp and confident, outside fades to gray uncertainty. Know the edge."
+  },
+  {
+    "name": "Map Is Not the Territory",
+    "visual_prompt": "A folded paper map overlaid on a landscape it only partially matches — key terrain features exist on the ground but are missing from the map. Representation versus reality."
+  },
+  {
+    "name": "Ladder of Inference",
+    "visual_prompt": "A vertical ladder with seven rungs, the bottom rung labeled with raw data dots and the top rung showing a bold action arrow — intermediate rungs show progressive abstraction steps ascending upward."
+  },
+  {
+    "name": "Pareto Principle (80/20 Rule)",
+    "visual_prompt": "A bar chart where one tall bar (20%) towers over four short bars (80%), with a dividing line showing disproportionate impact. Vital few versus trivial many."
+  },
+  {
+    "name": "10-10-10 Rule",
+    "visual_prompt": "Three concentric clock faces nested together — innermost tiny, middle medium, outermost large — representing minutes, months, and years expanding outward from a single decision point."
+  },
+  {
+    "name": "WRAP Framework",
+    "visual_prompt": "Four shield quadrants arranged in a 2x2 grid, each containing a distinct symbol: wide arrows for options, a lens for reality-testing, a distance marker for perspective, and a warning triangle for being wrong. Four defenses unified."
+  },
+  {
+    "name": "Confidence Determines Speed vs. Quality",
+    "visual_prompt": "A diagonal axis with a speedometer needle on one end and a quality diamond on the other, with a slider bar showing the confidence-driven trade-off between the two poles."
+  },
+  {
+    "name": "Steel-Manning",
+    "visual_prompt": "A muscular steel arch — a structural bridge shape — framing an opposing arrow, suggesting that the opposing view is being strengthened and held up rather than knocked down. Fortified argument."
+  },
+  {
+    "name": "Goodhart's Law",
+    "visual_prompt": "A target bullseye with an arrow hitting the center ring perfectly, but the underlying goal marker has drifted off to the side — the measure is hit, the goal is missed. Metric divorced from meaning."
+  },
+  {
+    "name": "Reference Class Forecasting",
+    "visual_prompt": "A bell curve distribution of past project outcomes with a single optimistic point estimate falling far to the left of the true peak — the outside view anchor correcting the inside-view outlier."
+  },
+  {
+    "name": "Confirmation Bias",
+    "visual_prompt": "A magnifying glass that only shows matching puzzle pieces, while mismatching pieces outside the lens are faded out. Selective amplification of confirming evidence."
+  },
+  {
+    "name": "Loss Aversion",
+    "visual_prompt": "An asymmetric scale where a small loss weight on one side drops much lower than a larger gain weight on the other — the emotional gravity of loss exaggerated by tilted proportions."
+  },
+  {
+    "name": "Parkinson's Law",
+    "visual_prompt": "A fluid blob expanding to fill a rectangular container exactly — the blob shapeless and spreading outward to touch every wall, no matter the container size. Work inflating to fill available space."
+  },
+  {
+    "name": "Scenario Planning",
+    "visual_prompt": "A single path that forks into three distinct branching trajectories — one curving up, one flat, one descending — each leading to a different horizon flag. Multiple futures mapped from one present."
+  },
+  {
+    "name": "Decision Tree",
+    "visual_prompt": "A branching tree structure with probability-labeled forks and payoff values at leaf nodes, one highlighted path tracing the maximum expected value route from root to outcome."
+  },
+  {
+    "name": "Abstraction Laddering",
+    "visual_prompt": "A vertical ladder with an upward arrow labeled 'Why?' ascending toward a wide cloud shape, and a downward arrow labeled 'How?' descending toward concrete tool icons — moving between purpose and implementation."
+  },
+  {
+    "name": "Issue Trees (Logic Trees)",
+    "visual_prompt": "A MECE tree diagram branching symmetrically from one root node into non-overlapping sub-branches, with clean gaps between sibling nodes showing mutual exclusivity and complete coverage."
+  },
+  {
+    "name": "MECE Principle",
+    "visual_prompt": "A rectangle perfectly divided into non-overlapping, gap-free sections of different sizes — each slice distinct, all slices together covering the whole. Complete coverage with zero overlap."
+  },
+  {
+    "name": "Five Whys",
+    "visual_prompt": "A vertical chain of five links, each labeled with a progressively smaller arrow pointing downward, ending at a glowing root node at the bottom. Depth revealed through descent."
+  },
+  {
+    "name": "Fishbone Diagram (Ishikawa / Cause-and-Effect Diagram)",
+    "visual_prompt": "A horizontal spine with diagonal bones branching off each side, converging at a single problem box on the right — a fish skeleton seen from above. Cause clusters feeding one effect."
+  },
+  {
+    "name": "TRIZ (Theory of Inventive Problem Solving)",
+    "visual_prompt": "Two opposing arrows locked in a head-on collision forming an X, with a curved solution arc bridging cleanly over both. Contradiction resolved by going above it."
+  },
+  {
+    "name": "SCAMPER",
+    "visual_prompt": "A single object — a simple cube — shown seven times in a radial arrangement, each copy transformed differently: rotated, split, shrunk, merged, flipped. Systematic variation on one original."
+  },
+  {
+    "name": "Lateral Thinking",
+    "visual_prompt": "A straight downward arrow drilling into the ground beside it, while a curved dotted arrow loops sideways around an obstacle to reach the same destination. Detour as the smarter path."
+  },
+  {
+    "name": "Morphological Analysis (Zwicky Box)",
+    "visual_prompt": "A 3x4 grid matrix with each column representing a dimension and each row a variation; one diagonal path highlighted across columns selects one option per dimension. The search space made exhaustive."
+  },
+  {
+    "name": "Design Thinking",
+    "visual_prompt": "Five concentric arcs forming a stylized eye shape — empathy, define, ideate, prototype, test — each arc a different shade, orbiting a human silhouette at the center."
+  },
+  {
+    "name": "Double Diamond",
+    "visual_prompt": "Two diamond shapes placed end-to-end: the first expands then narrows to define the right problem, the second expands then narrows to deliver the right solution. Diverge-converge repeated twice."
+  },
+  {
+    "name": "Divergent / Convergent Thinking",
+    "visual_prompt": "A single point that fans out into many radiating arrows on the left (diverge), then those arrows funnel back into a single point on the right (converge). Expansion and contraction as one symmetric motion."
+  },
+  {
+    "name": "Creative Problem Solving (CPS) Model",
+    "visual_prompt": "A winding path with alternating wide loops (diverge) and tight pinch-points (converge) repeating three times before reaching a destination flag. Structured oscillation leading to a solution."
+  },
+  {
+    "name": "Root Cause Analysis",
+    "visual_prompt": "A tree shown upside down: the visible symptom sits at the top as a leaf, branches trace downward through layers of soil to a single taproot glowing at the bottom. The visible caused by the buried."
+  },
+  {
+    "name": "Concept Fan",
+    "visual_prompt": "A folding hand fan fully spread open, each rib a different solution branch radiating from a single pivot point that represents the problem restated at broader levels. Wider framing, more options."
+  },
+  {
+    "name": "Mind Mapping",
+    "visual_prompt": "A central circle with organic curved branches radiating outward in all directions, each branch splitting into smaller sub-branches like a neural tree. Associative structure made visible."
+  },
+  {
+    "name": "Synectics",
+    "visual_prompt": "Two dissimilar objects — a gear and a leaf — connected by a bridge arrow, with a glowing lightbulb emerging at the bridge midpoint. Distant domains colliding to spark insight."
+  },
+  {
+    "name": "Analogical Thinking",
+    "visual_prompt": "Two distinct shapes — a bridge arch and an unfamiliar gap — connected by a dotted transfer arrow, showing the arch structure copied and placed over the gap as a solution scaffold."
+  },
+  {
+    "name": "Constraint Relaxation",
+    "visual_prompt": "A tight rectangular box with dashed walls that dissolve outward, revealing a much larger solution space beyond them. Invisible walls becoming permeable."
+  },
+  {
+    "name": "Reframing",
+    "visual_prompt": "A picture frame that rotates 90 degrees, revealing the same scene transformed into a completely different composition. Same elements, new meaning through changed orientation."
+  },
+  {
+    "name": "Productive Thinking Model",
+    "visual_prompt": "Six stepping stones arranged in a curved ascending path, each stone slightly higher than the last, with the final stone elevated above a clear goal marker. Structured ascent to solution."
+  },
+  {
+    "name": "Brainstorming",
+    "visual_prompt": "Multiple speech bubbles of varying sizes exploding outward from a central point in all directions, each bubble distinct — no filter, no hierarchy, pure volume. Uncensored generation."
+  },
+  {
+    "name": "Retrograde Analysis (Working Backwards)",
+    "visual_prompt": "A trophy or destination flag on the right with a dotted path traced backwards leftward through waypoints, each waypoint revealed by the prior one — the path found in reverse. End-first reasoning."
+  },
+  {
+    "name": "Problem Decomposition",
+    "visual_prompt": "A large irregular boulder splitting into smaller geometric fragments — cube, pyramid, sphere — each a different color. One unsolvable mass becoming many tractable pieces."
+  },
+  {
+    "name": "Empathy Map",
+    "visual_prompt": "A human head silhouette divided into four quadrants — Think, Feel, Say, Do — each quadrant filled with a distinct texture or pattern. A window into the inner and outer life of a person."
+  },
+  {
+    "name": "Reverse Brainstorming",
+    "visual_prompt": "A downward arrow transforming into an upward arrow at a mirror line, with scattered ideas above and their inverted counterparts reflected below. Problem-as-solution flipped."
+  },
+  {
+    "name": "Ishikawa Conflict Resolution Diagram (Evaporating Cloud)",
+    "visual_prompt": "Two diverging arrows (A and B) rooted in a shared hidden link — a dashed chain — that dissolves into mist. The invisible assumption evaporating to reveal a third path."
+  },
+  {
+    "name": "Delphi Method",
+    "visual_prompt": "Three concentric circles converging inward through successive rounds, with scattered dots on the outer ring clustering tightly toward the center. Anonymous consensus spiraling in."
+  },
+  {
+    "name": "Reinforcing Feedback Loop",
+    "visual_prompt": "A circular arrow forming a loop with a plus sign at the junction, each pass of the arrow growing slightly thicker and larger. Compounding amplification made visible."
+  },
+  {
+    "name": "Balancing Feedback Loop",
+    "visual_prompt": "A pendulum swinging toward a target line, its arc diminishing with each pass until it rests at equilibrium. Self-correcting motion toward a fixed goal."
+  },
+  {
+    "name": "Stock and Flow",
+    "visual_prompt": "A rectangular tank partially filled with water, a faucet arrow flowing in from the top and a drain arrow flowing out from the bottom. The bathtub metaphor for accumulation and rate."
+  },
+  {
+    "name": "Causal Loop Diagram (CLD)",
+    "visual_prompt": "Four labeled nodes connected by curved arrows forming two interlocking loops — one reinforcing, one balancing — showing the web of cause and effect in a system."
+  },
+  {
+    "name": "Leverage Points",
+    "visual_prompt": "A fulcrum lever where a small applied force on one side tips a massive boulder on the other — the lever placed close to the boulder end to maximize impact. Maximum effect from minimal input."
+  },
+  {
+    "name": "Iceberg Model",
+    "visual_prompt": "A classic iceberg cross-section where the visible tip (events) floats above a waterline, with three progressively larger layers descending into darkness — patterns, structures, mental models."
+  },
+  {
+    "name": "Connection Circles",
+    "visual_prompt": "A circle of labeled nodes around the perimeter with curved arrows crossing the interior, forming interlocking arcs that trace circular causality. A web inside a ring."
+  },
+  {
+    "name": "Limits to Growth Archetype",
+    "visual_prompt": "An S-curve that rises steeply then flattens against a ceiling line — a reinforcing arrow pushing upward while a constraining wall deflects it horizontal. Growth meeting its boundary."
+  },
+  {
+    "name": "Shifting the Burden Archetype",
+    "visual_prompt": "A broken pipe with a bandage patch diverting flow away from the root crack below, while the crack widens unnoticed. Symptomatic fix drawing attention from the real fracture."
+  },
+  {
+    "name": "Tragedy of the Commons",
+    "visual_prompt": "A shared pasture divided into radiating wedges, each with an animal grazing — the center of the pasture depleted and bare while individual wedges are still full. Collective depletion from individual gain."
+  },
+  {
+    "name": "Fixes That Fail Archetype",
+    "visual_prompt": "A quick-fix arrow that arcs over the present moment and lands back amplifying the original problem via a delayed looping path. The short-term solution boomeranging into a larger wound."
+  },
+  {
+    "name": "Escalation Archetype",
+    "visual_prompt": "Two arrows pointing at each other, each one growing thicker and longer in successive steps, forming a staircase of mutual threat. An escalating standoff ratcheting upward."
+  },
+  {
+    "name": "Drifting Goals Archetype",
+    "visual_prompt": "A horizontal target line that silently steps downward over time to meet a stagnant performance bar, while the gap between them stays constant. The standard sinking to the floor."
+  },
+  {
+    "name": "Success to the Successful Archetype",
+    "visual_prompt": "Two scales side by side sharing a single resource pool — as one scale tip fills heavier, resources visibly drain from the lighter scale, increasing the imbalance. Winner-take-all compounding."
+  },
+  {
+    "name": "Growth and Underinvestment Archetype",
+    "visual_prompt": "A rising growth curve that plateaus, then a capacity-investment arrow that shrinks just as the plateau hits, causing the curve to slope downward in a self-sealing loop. Decline justified by the very gap that demands investment."
+  },
+  {
+    "name": "Campbell's Law",
+    "visual_prompt": "A ruler being bent and warped by a heavy downward pressure from an arrow above, while the measurement markings visibly distort. A clean metric corrupted by the weight of high stakes."
+  },
+  {
+    "name": "Conway's Law",
+    "visual_prompt": "An org chart of boxes and lines on the left mirrored exactly by a software architecture diagram on the right — the two structures identical, joined by a reflection line down the middle."
+  },
+  {
+    "name": "Gall's Law",
+    "visual_prompt": "A small seedling on the left growing through incremental rings into a towering complex tree on the right — beside it, a blueprint for a complex tree crossed out with an X."
+  },
+  {
+    "name": "Emergence",
+    "visual_prompt": "Many small identical dots arranged in a loose swarm at the bottom, their collective shape forming the clear silhouette of a bird in flight at the top — whole greater than parts."
+  },
+  {
+    "name": "Complex Adaptive Systems (CAS)",
+    "visual_prompt": "A web of small nodes connected by curved lines, each node pulsing with a small directional arrow showing it orienting toward neighbors — the entire network alive with distributed adaptation."
+  },
+  {
+    "name": "Wicked Problems",
+    "visual_prompt": "A tangled knot where pulling any one strand tightens others — no loose end, no clear starting point, the knot itself transforming as you look at it."
+  },
+  {
+    "name": "Normal Accidents Theory",
+    "visual_prompt": "Three independent chains of components, each with one broken link — the chains crossing each other at a single point where all three failures align and collide, triggering collapse."
+  },
+  {
+    "name": "Antifragility",
+    "visual_prompt": "A muscle fiber shown under a heavy dumbbell load — the fiber emerging thicker and stronger on the other side of the stress, with upward arrows indicating growth through pressure."
+  },
+  {
+    "name": "Black Swan",
+    "visual_prompt": "A tight bell curve of white swans with a single black swan perched far out on the extreme tail, dwarfing the entire curve in the silhouette it casts."
+  },
+  {
+    "name": "Lindy Effect",
+    "visual_prompt": "A timeline where old books, columns, and symbols stand tall while newer items on the right are faded or toppled — the oldest artifacts casting the longest forward shadow."
+  },
+  {
+    "name": "Chaos Theory / Butterfly Effect",
+    "visual_prompt": "A butterfly on the left with a tiny dotted line from its wing that diverges into two wildly different storm paths on the right — small cause, vast forking consequences."
+  },
+  {
+    "name": "Strange Attractor",
+    "visual_prompt": "A looping, never-repeating orbital path that weaves around two focal points in a figure-eight butterfly shape — chaotic motion contained within a recognizable bounded form."
+  },
+  {
+    "name": "Power Laws / Fat Tails",
+    "visual_prompt": "A distribution curve where the left spike towers extremely high and the right tail stretches far longer than expected — a fat tail extending well beyond where a normal bell curve would end."
+  },
+  {
+    "name": "Network Effects (Metcalfe's Law)",
+    "visual_prompt": "A small cluster of 3 nodes with few connection lines doubling to 6 nodes with dramatically more lines, then 12 nodes with an explosion of connections — value multiplying faster than nodes."
+  },
+  {
+    "name": "Scale-Free Networks / Preferential Attachment",
+    "visual_prompt": "A network where one massive hub node has dozens of connections radiating outward, surrounded by many tiny nodes with only one or two links each — a stark hub-and-spoke power hierarchy."
+  },
+  {
+    "name": "Tipping Point",
+    "visual_prompt": "A ball rolling slowly along a curved surface toward a ridge, then shown in the next beat tumbling rapidly down the far slope with accelerating speed — the threshold crossed and irreversible."
+  },
+  {
+    "name": "Diffusion of Innovation (S-Curve)",
+    "visual_prompt": "An S-shaped adoption curve rising from flat to steep to flat again, with five distinct shaded bands along its length — innovators thin, early majority wide, laggards tapering at the end."
+  },
+  {
+    "name": "Panarchy / Adaptive Cycle",
+    "visual_prompt": "Four phases labeled around an infinity-loop figure-eight: a rising growth arc, a tight conservation peak, a collapse drop, and a spreading reorganization sweep — a continuous cycle of rise, rigidity, release, renewal."
+  },
+  {
+    "name": "Unintended Consequences",
+    "visual_prompt": "A straight forward-pointing arrow labeled with intent, casting a curved shadow behind it that loops back and strikes from an unexpected angle — action and its hidden returning consequence."
+  },
+  {
+    "name": "Cobra Effect",
+    "visual_prompt": "A hand releasing a caged cobra labeled 'bounty,' with many more cobras multiplying around it — the incentive that was meant to reduce snakes visibly producing more."
+  },
+  {
+    "name": "Jevons Paradox (Rebound Effect)",
+    "visual_prompt": "A downward efficiency arrow on the left (small flame) paired with an upward consumption arrow on the right (large stack of flames), connected by a paradox curve. Saving less leads to using more."
+  },
+  {
+    "name": "Braess's Paradox",
+    "visual_prompt": "A road network diagram where adding a central bridge (new connection) creates a bottleneck — traffic arrows converge and slow at the new link while bypassing the formerly free paths."
+  },
+  {
+    "name": "Path Dependence / Lock-In",
+    "visual_prompt": "A tree of forking paths where early branches are thick and locked with a chain, funneling all routes through one narrow corridor regardless of where later forks might lead."
+  },
+  {
+    "name": "Hysteresis",
+    "visual_prompt": "A loop curve that traces a different path going up than coming down — like a lopsided oval showing input on the x-axis and output on the y-axis, where history bends the return route."
+  },
+  {
+    "name": "Nonlinearity",
+    "visual_prompt": "A curved S-shaped line on a graph sharply diverging from a straight diagonal baseline — a small horizontal nudge at the inflection point produces a massive vertical leap."
+  },
+  {
+    "name": "Delays",
+    "visual_prompt": "An action arrow on the left and an effect arrow on the right, separated by a wide hourglass in the middle. Oscillating waves downstream show the system overshooting due to the lag."
+  },
+  {
+    "name": "Resilience",
+    "visual_prompt": "A bowl with a ball inside — the ball rolls to the edge under a shockwave but returns to center, while the bowl itself slightly reshapes and widens to absorb future disturbance."
+  },
+  {
+    "name": "Self-Organization",
+    "visual_prompt": "Scattered dots at the edges spontaneously forming a coherent pattern — a murmuration-like chevron — with no central node, only local arrows between neighboring dots."
+  },
+  {
+    "name": "Collective Action Problem",
+    "visual_prompt": "Four individual figures each pulling a rope outward from a central shared resource (a shrinking circle), depleting it even as each arrow benefits a single actor. The commons collapses."
+  },
+  {
+    "name": "Boiling Frog",
+    "visual_prompt": "A thermometer rising by tiny increments inside a container, with each small tick barely visible but the cumulative level approaching a critical threshold marked by a red line."
+  },
+  {
+    "name": "Forrester's Counterintuitive Behavior",
+    "visual_prompt": "A tangled web of feedback loops where an intuitive push-down arrow (marked wrong) worsens the system, and a small counter-intuitive lever far from the problem (marked right) is the actual fix."
+  },
+  {
+    "name": "Ostrom's Design Principles",
+    "visual_prompt": "A hexagonal commons (shared pool) surrounded by eight interlocking shield segments, each representing a governance rule — a community-governed boundary rather than a single top-down lock."
+  },
+  {
+    "name": "Situation-Behavior-Impact (SBI)",
+    "visual_prompt": "Three clean sequential boxes connected by arrows: a clock/location pin (situation), a visible action gesture (behavior), and a ripple wave (impact) — concrete and separated, no judgment overlay."
+  },
+  {
+    "name": "Nonviolent Communication (NVC)",
+    "visual_prompt": "Four concentric rings expanding outward — innermost is an eye (observation), then a heart (feeling), then an anchor (need), then an open hand (request) — empathy radiating from center."
+  },
+  {
+    "name": "Minto Pyramid Principle (BLUF)",
+    "visual_prompt": "An inverted triangle with the wide flat conclusion at the top and narrowing rows of supporting arguments and evidence below — answer first, proof underneath."
+  },
+  {
+    "name": "SCQA Framework",
+    "visual_prompt": "Four stacked horizontal bars in descending width: a stable wide bar (Situation), a disrupted jagged bar (Complication), a question mark bar (Question), and a bold answer bar (Answer) — narrative tension building to resolution."
+  },
+  {
+    "name": "Ethos, Pathos, Logos (Rhetorical Triangle)",
+    "visual_prompt": "An equilateral triangle with a laurel crown at the top vertex (ethos), a heart at the bottom-left (pathos), and a scale at the bottom-right (logos) — three equal sides forming one persuasive whole."
+  },
+  {
+    "name": "Monroe's Motivated Sequence",
+    "visual_prompt": "Five ascending steps — a spotlight (Attention), a gap/crack (Need), a key (Satisfaction), a vision lens (Visualization), a forward arrow (Action) — stairs climbing toward committed movement."
+  },
+  {
+    "name": "Hero's Journey (Monomyth)",
+    "visual_prompt": "A circular arc with a figure starting at a calm plain, descending into a dark cave at the bottom, and rising back transformed on the other side — the full orbit of departure, ordeal, and return."
+  },
+  {
+    "name": "Story Spine",
+    "visual_prompt": "A spine-shaped vertical line with six short horizontal ribs branching from it, each rib a story beat progressing from calm at top to conflict at center to resolution at bottom — scaffold made visible."
+  },
+  {
+    "name": "Active Listening",
+    "visual_prompt": "A large ear with concentric ripple rings radiating inward toward its center, symbolizing full absorption of sound. A small pause symbol (two vertical bars) floats nearby, representing suspended judgment."
+  },
+  {
+    "name": "Socratic Method",
+    "visual_prompt": "A question mark whose tail uncoils into a chain of smaller question marks, each one slightly larger than the last — a cascade of deepening inquiry leading to a single lit lightbulb at the end."
+  },
+  {
+    "name": "Johari Window",
+    "visual_prompt": "A 2x2 window frame divided into four panes — one clear (open), one mirrored (blind), one frosted (hidden), one dark (unknown). Two small figures on opposite sides of the frame, one pointing through the glass."
+  },
+  {
+    "name": "Transactional Analysis (PAC Model)",
+    "visual_prompt": "Three stacked circles labeled with a crown (Parent), a diamond (Adult), and a star (Child), with a crossing arrow between the top and bottom circles showing a crossed transaction. Clean vertical stack with one diagonal arrow disrupting the alignment."
+  },
+  {
+    "name": "DESC Model",
+    "visual_prompt": "Four sequential horizontal bars stacked like a ladder — Describe, Express, Specify, Consequences — each slightly wider than the last, forming a controlled ascending ramp from observation to outcome."
+  },
+  {
+    "name": "I-Messages",
+    "visual_prompt": "A speech bubble shaped as the letter 'I' with an emotional wave inside it — a smooth curve representing feelings — in contrast to a sharp jagged 'YOU' arrow pointing outward that is crossed out."
+  },
+  {
+    "name": "Crucial Conversations Framework",
+    "visual_prompt": "Two speech bubbles overlapping in the center to form a shared pool — the intersection glowing — while flames surround the edges, representing high stakes and strong emotion contained by a shared zone."
+  },
+  {
+    "name": "Overton Window",
+    "visual_prompt": "A vertical spectrum bar from 'unthinkable' at the bottom to 'policy' at the top, with a rectangular window frame highlighting a movable middle band. A small arrow pushing the window frame upward along the bar."
+  },
+  {
+    "name": "BATNA & ZOPA",
+    "visual_prompt": "Two horizontal number lines facing each other with their own marked thresholds (BATNA), and a shaded overlapping zone between them — the ZOPA — lit up where both ranges intersect."
+  },
+  {
+    "name": "Principled Negotiation (Interest-Based Negotiation)",
+    "visual_prompt": "Two figures each holding a position flag above their heads, but below the surface (like an iceberg) their shared interests are illustrated as a large common root system connecting both — depth versus surface."
+  },
+  {
+    "name": "Tactical Empathy (FBI Negotiation)",
+    "visual_prompt": "A mirroring pair of speech bubbles — one solid, one as its reflection — with an emotion label tag pinned to the reflected bubble. The reflection slightly softer than the original, symbolizing empathic labeling."
+  },
+  {
+    "name": "Anchoring",
+    "visual_prompt": "A large ship anchor dropped on a number line, its heavy chain pulling the final settlement marker strongly toward the anchor's landing point, with a small figure on the far right unable to pull the marker back."
+  },
+  {
+    "name": "Inoculation Theory",
+    "visual_prompt": "A syringe injecting a small, weakened version of a sharp spiky shape (misinformation) into a shield, which then grows thicker and more solid — a vaccine metaphor for argument resistance."
+  },
+  {
+    "name": "Cialdini's 7 Principles of Influence",
+    "visual_prompt": "Seven small icons arranged in a circular pattern around a central hand — a gift (reciprocity), chain link (commitment), crowd (social proof), badge (authority), heart (liking), hourglass (scarcity), interlocking rings (unity). A compact influence wheel."
+  },
+  {
+    "name": "Pre-Suasion",
+    "visual_prompt": "A spotlight illuminating a cleared stage before a message arrow enters from the side — the spotlight shaping what the audience sees first, priming the ground before the idea lands."
+  },
+  {
+    "name": "Trust Equation",
+    "visual_prompt": "A balance scale where three stacked coins (Credibility, Reliability, Intimacy) sit on one pan, and a single oversized 'S' for self-orientation weighs down the opposite pan. The formula expressed as a visual ratio."
+  },
+  {
+    "name": "Psychological Safety",
+    "visual_prompt": "A circle of small figures each with a speech bubble raised openly, enclosed inside a soft glowing ring — the ring acting as a protective boundary separating the open inner space from a harsh external environment."
+  },
+  {
+    "name": "Radical Candor",
+    "visual_prompt": "A 2x2 grid with axes 'Care Personally' (vertical) and 'Challenge Directly' (horizontal), with the top-right quadrant brightly highlighted and the other three quadrants labeled with dimmed warning tones."
+  },
+  {
+    "name": "SCARF Model",
+    "visual_prompt": "A brain silhouette divided into five vertical bands each a different color — one per domain — with a reward (up arrow) or threat (down arrow) symbol inside each band, showing the neural toggle of social triggers."
+  },
+  {
+    "name": "Five Dysfunctions of a Team",
+    "visual_prompt": "A pyramid with five stacked layers, each layer cracked — the bottom crack (absence of trust) causing a fracture that propagates up through each layer to the crumbling peak (inattention to results). A structural failure cascade."
+  },
+  {
+    "name": "Servant Leadership",
+    "visual_prompt": "A large hand cupped beneath a small upward-growing tree, lifting it toward light. Support flowing upward, not downward."
+  },
+  {
+    "name": "Transformational Leadership (4 I's)",
+    "visual_prompt": "A central flame radiating four distinct beams outward, each beam ending in a different symbol — star, lightbulb, hand, person. One spark, four transformations."
+  },
+  {
+    "name": "Situational Leadership (Hersey-Blanchard)",
+    "visual_prompt": "A dial or compass with four quadrants — Directing, Coaching, Supporting, Delegating — and an arrow pointing to the appropriate quadrant based on a small readiness gauge beside it."
+  },
+  {
+    "name": "Authentic Leadership",
+    "visual_prompt": "A mirror reflecting a figure identically — no distortion, no mask, no gap between the person and their reflection. Pure correspondence."
+  },
+  {
+    "name": "Stakeholder Power-Interest Matrix (Mendelow's Matrix)",
+    "visual_prompt": "A 2x2 grid with power on the vertical axis and interest on the horizontal, each quadrant containing a different engagement icon — megaphone, close eye, handshake, conversation bubble."
+  },
+  {
+    "name": "SPIN Selling",
+    "visual_prompt": "A spiral of four question marks — each progressively larger — coiling inward toward a glowing lightbulb at the center. Questions that excavate to insight."
+  },
+  {
+    "name": "Four Levels of Listening (Theory U)",
+    "visual_prompt": "A vertical cross-section showing four descending layers — surface ripple, clear water, deeper still, and a luminous open space at the bottom. Listening as depth."
+  },
+  {
+    "name": "Survivorship Bias",
+    "visual_prompt": "A spotlight illuminating a few standing figures on a stage while dozens of fallen silhouettes lie in shadow beyond the light's edge. Only the visible survivors counted."
+  },
+  {
+    "name": "Dunning-Kruger Effect",
+    "visual_prompt": "A confidence curve that peaks sharply at the beginning, plummets into a valley, then rises gradually — with a tiny figure standing triumphantly on the first peak, unaware of the cliff ahead."
+  },
+  {
+    "name": "Anchoring Effect",
+    "visual_prompt": "A heavy anchor dropped at the left of a number line, with a slider that cannot move far from the anchor's position despite the long available range."
+  },
+  {
+    "name": "Availability Heuristic",
+    "visual_prompt": "A brain with one vivid image — a shark fin — filling its entire interior, while a dense stack of tiny data bars sits ignored outside, dwarfed by the single memorable icon."
+  },
+  {
+    "name": "Hindsight Bias",
+    "visual_prompt": "A dotted timeline ending at a star outcome, with a retroactive arrow drawn back to the start labeled as 'obvious' — rewriting a winding, uncertain path into a straight inevitable line."
+  },
+  {
+    "name": "Status Quo Bias",
+    "visual_prompt": "A figure standing on a platform labeled 'now,' looking at an open door, but anchored by a thick chain connecting their ankle to the platform beneath them."
+  },
+  {
+    "name": "Endowment Effect",
+    "visual_prompt": "Two identical mugs on a scale — one held in an outstretched hand tipping its side of the scale heavily down, the other sitting untouched on the lighter side. Ownership inflates perceived weight."
+  },
+  {
+    "name": "Bandwagon Effect",
+    "visual_prompt": "A crowd of arrows all pointing in one direction, with a single small arrow at the edge pivoting from a different direction to join the majority stream."
+  },
+  {
+    "name": "Peak-End Rule",
+    "visual_prompt": "A jagged experience timeline with one tall peak spike and a distinct endpoint, connected by dotted lines to a memory icon — while the rest of the long middle line fades to near-invisible."
+  },
+  {
+    "name": "Halo Effect",
+    "visual_prompt": "A glowing halo ring above a simple figure, with golden light radiating downward and tinting every attribute bar around it the same warm color regardless of actual merit."
+  },
+  {
+    "name": "Narrative Fallacy",
+    "visual_prompt": "A series of random disconnected dots, with a smooth curved arrow drawn between them forcing a clean causal path — the arrow an invention, the dots merely scattered."
+  },
+  {
+    "name": "Recency Bias",
+    "visual_prompt": "A timeline graph where the rightmost recent bar is vastly oversized and brightly lit, while the equally tall historical bars recede into gray and shrink with distance."
+  },
+  {
+    "name": "Framing Effect",
+    "visual_prompt": "Two identical half-filled glasses side by side — one with an arrow pointing to the empty half labeled with a frown, one with an arrow pointing to the full half labeled with a smile. Same reality, opposite frames."
+  },
+  {
+    "name": "Sunk Cost Fallacy",
+    "visual_prompt": "A person's silhouette pushing a heavy boulder uphill, with a trail of coins and clocks left behind on the slope — the path forward steeper than the descent back. Irrecoverable past weighing against rational exit."
+  },
+  {
+    "name": "Fundamental Attribution Error",
+    "visual_prompt": "Two facing profile silhouettes: one labeled with a character icon (a person shape inside), the other with a storm cloud. The left figure points inward at the character, the right points outward at the cloud — asymmetric attribution made visible."
+  },
+  {
+    "name": "Overconfidence Bias",
+    "visual_prompt": "A dial gauge whose needle is pinned hard to the right past the 'correct' zone, with a small actual-target marker sitting far to the left. Confidence vastly overshooting reality."
+  },
+  {
+    "name": "Gambler's Fallacy",
+    "visual_prompt": "A row of five coin-flip results all showing heads, with an arrow pointing to a sixth coin — and a large erroneous 'tails due' label on it. Independent events falsely linked by a dotted chain."
+  },
+  {
+    "name": "Planning Fallacy",
+    "visual_prompt": "A timeline bar split into two: a short optimistic estimate band in blue and a much longer actual-duration band in red extending far past the deadline marker. Gap between expectation and reality as a horizontal chasm."
+  },
+  {
+    "name": "Availability Cascade",
+    "visual_prompt": "A single small spark igniting a chain of increasingly large megaphones, each one bigger than the last and pointing outward. Amplifying repetition turning a whisper into perceived fact."
+  },
+  {
+    "name": "Backfire Effect",
+    "visual_prompt": "An arrow of evidence striking a shield, but instead of penetrating it, the shield grows thicker and a counter-arrow rebounds outward. Contradiction fortifying the wall it was meant to breach."
+  },
+  {
+    "name": "Affect Heuristic",
+    "visual_prompt": "A heart icon overlaid on a balance scale, its weight tipping the pan far down on one side while a small data chart sits ignored on the lighter side. Emotion overriding evidence in the weighing."
+  },
+  {
+    "name": "Curse of Knowledge",
+    "visual_prompt": "Two figures facing each other: the expert's speech bubble filled with dense interconnected nodes, the novice's receiving bubble showing only a single isolated question mark. The knowledge map that can't be unseen."
+  },
+  {
+    "name": "IKEA Effect",
+    "visual_prompt": "A simple wooden chair with one leg slightly uneven, but surrounded by a golden halo glow — the creator's hand still visible in a faint outline holding a screwdriver. Imperfect self-made object radiant with overvaluation."
+  },
+  {
+    "name": "Zeigarnik Effect",
+    "visual_prompt": "A row of five circles: four fully filled and dimmed, one half-filled and brightly lit with a pulsing ring. The incomplete item commanding all the attention in the sequence."
+  },
+  {
+    "name": "Ben Franklin Effect",
+    "visual_prompt": "A hand passing a small gift outward, with an arrow looping back to the giver's heart — the act of giving creating affection in the giver, not the receiver. Favor as a self-directed mirror."
+  },
+  {
+    "name": "Serial Position Effect",
+    "visual_prompt": "A horizontal list of seven items: the first and last glowing brightly, the middle three faded and dim. A U-shaped curve of memory plotted over the sequence."
+  },
+  {
+    "name": "False Consensus Effect",
+    "visual_prompt": "A single figure standing at the center of a circle, projecting identical silhouettes outward in all directions — but outside the circle only a few actual silhouettes match, most are different. Self-projection mistaken for consensus."
+  },
+  {
+    "name": "Negativity Bias",
+    "visual_prompt": "A balance scale with one black stone on the left tipping it heavily down, while three white stones on the right barely lift their side. Asymmetric weight of the negative."
+  },
+  {
+    "name": "Optimism Bias",
+    "visual_prompt": "A figure standing under a personal sunshine beam while storm clouds loom overhead — the clouds have a thin dotted line curving around the figure, as if the bad weather applies to everyone else. Selective exemption from risk."
+  },
+  {
+    "name": "Authority Bias",
+    "visual_prompt": "A large badge or medal at the top casting a downward beam that illuminates a speech bubble below, while an identical speech bubble beside it sits in shadow — same words, different spotlight based on credential. The credential as a light source."
+  },
+  {
+    "name": "Mere Exposure Effect",
+    "visual_prompt": "Four identical simple shapes in a row, each one progressively warmer in color from cool grey to glowing gold — familiarity as a gradient from indifference to preference. Repetition as warmth."
+  },
+  {
+    "name": "Illusory Truth Effect",
+    "visual_prompt": "A single statement shown three times as stacked horizontal bars, each repetition layer brighter and more solid than the one below — frequency building false solidity. A lie crystallizing through repetition."
+  },
+  {
+    "name": "Representativeness Heuristic",
+    "visual_prompt": "A mental archetype silhouette (a prototype figure) with a magnifying lens in front of a crowd, highlighting only the person who matches the template while the base-rate numbers float ignored in the periphery. Pattern-match overriding probability."
+  },
+  {
+    "name": "System 1 / System 2 Thinking",
+    "visual_prompt": "A brain split diagonally — the left side a lightning bolt (fast, automatic) and the right side a slow gear with teeth (deliberate, analytical). The divide is sharp, contrasting speed against precision."
+  },
+  {
+    "name": "Ingroup Bias",
+    "visual_prompt": "A tight circle of identical figures clustered together facing inward, with a single figure outside the circle faded and slightly smaller. The boundary of the circle is the focal element."
+  },
+  {
+    "name": "Feynman Technique",
+    "visual_prompt": "A tangled knot of complex symbols on one side, with an arrow pointing to a single clean circle with a dot — the irreducible essence. Complexity distilled into a child's drawing."
+  },
+  {
+    "name": "Spacing Effect (Spaced Repetition)",
+    "visual_prompt": "Three identical small books stacked at growing intervals along a timeline, each one taller than the last to show cumulative retention. Gaps between them widen as the timeline extends."
+  },
+  {
+    "name": "Interleaving",
+    "visual_prompt": "Three differently-shaped tiles — circle, square, triangle — woven into an alternating checkerboard row rather than grouped in solid blocks. Mixed pattern against the sorted version."
+  },
+  {
+    "name": "Deliberate Practice",
+    "visual_prompt": "A target with concentric rings, and an arrow hitting just outside the bullseye with a curved adjustment arrow nudging the aim inward. Feedback closing the gap — not random repetition."
+  },
+  {
+    "name": "Growth Mindset",
+    "visual_prompt": "A seed cracking open into a sapling, with a small upward arrow tracing the growth line. The crack in the shell is the moment of effort — potential becoming capability."
+  },
+  {
+    "name": "Bloom's Taxonomy",
+    "visual_prompt": "A triangle divided into six horizontal strata, the bottom wide and light (recall), the top narrow and dark (create). Each layer progressively narrower, showing the climb from memory to mastery."
+  },
+  {
+    "name": "Kolb's Learning Cycle",
+    "visual_prompt": "Four circles arranged in a square, connected by curved arrows cycling clockwise — each circle a distinct shade progressing from warm to cool. The cycle has no start or end, only motion."
+  },
+  {
+    "name": "Zone of Proximal Development (ZPD)",
+    "visual_prompt": "Three concentric rings: the innermost solid (can do alone), the middle ring lightly shaded (can do with help), and the outer ring faded (beyond reach). A small upward arrow stretches into the middle ring."
+  },
+  {
+    "name": "Double-Loop Learning",
+    "visual_prompt": "Two concentric feedback loops — a small inner loop correcting an action, and a larger outer loop curving back to question the rule that generated the action. The outer loop breaks the inner one's assumption."
+  },
+  {
+    "name": "Learning Pyramid / Cone of Experience",
+    "visual_prompt": "An inverted pyramid with the narrow tip at top (lecture, 5% retention) widening toward the base (teaching others, 90% retention). Fill intensity darkens toward the base — depth equals engagement."
+  },
+  {
+    "name": "Ebbinghaus Forgetting Curve",
+    "visual_prompt": "A steep downward curve dropping sharply from a peak, then flattening near the bottom — like a ski slope. A second dashed line shows a gentler decline after a review intervention mid-curve."
+  },
+  {
+    "name": "Retrieval Practice / Testing Effect",
+    "visual_prompt": "A closed book with an upward arrow pulling a glowing fact out of it — active extraction rather than passive reading. The arrow lifts the concept visibly upward, away from the page."
+  },
+  {
+    "name": "Metacognition",
+    "visual_prompt": "A mirror angled toward a head silhouette, reflecting a smaller thought-bubble back at itself. The self-reflection loop — thinking watching itself think."
+  },
+  {
+    "name": "Focused vs. Diffuse Thinking",
+    "visual_prompt": "Two complementary brain states side by side: a tight beam of light on the left (focused, convergent), and a soft diffuse glow radiating in all directions on the right. The contrast between laser and lantern."
+  },
+  {
+    "name": "What? So What? Now What?",
+    "visual_prompt": "Three squares arranged in a horizontal chain, each connected by a rightward arrow — the first contains a circle (event), the second a spark (insight), the third a forward arrow (action). Reflection becoming motion."
+  },
+  {
+    "name": "Munger's Latticework of Mental Models",
+    "visual_prompt": "A lattice grid of intersecting lines with small different-shaped nodes at each junction — circle, triangle, square — representing models from different disciplines woven into one framework."
+  },
+  {
+    "name": "Base Rate Fallacy",
+    "visual_prompt": "A large pie chart (population) in the background, nearly ignored, while a magnifying glass zooms in on a single vivid slice with bright color — the specific case overwhelming the statistical whole."
+  },
+  {
+    "name": "Conjunction Fallacy",
+    "visual_prompt": "A large circle (broad event) containing a smaller, more detailed circle inside it — yet the inner circle is brighter and more visually compelling, making it feel larger than the container. Specificity creating false probability."
+  },
+  {
+    "name": "Hot-Hand Fallacy",
+    "visual_prompt": "A hand gripping a basketball with a glowing streak of fire trailing behind it, while a flat probability curve below shows no upward trend. Belief in momentum clashing with random chance."
+  },
+  {
+    "name": "Impact Bias",
+    "visual_prompt": "A thermometer showing a wildly tall predicted spike next to a much shorter actual outcome bar. Anticipated emotional intensity towers over the modest reality."
+  },
+  {
+    "name": "Plan Continuation Bias",
+    "visual_prompt": "A straight arrow on a path charging toward a visible cliff edge, ignoring a clearly marked fork that curves safely away. Momentum overriding course correction."
+  },
+  {
+    "name": "Google Effect (Digital Amnesia)",
+    "visual_prompt": "A human head in profile with an empty brain cavity, and a glowing search bar floating outside it where the memory should live. Knowledge stored outside the skull."
+  },
+  {
+    "name": "Pomodoro Technique",
+    "visual_prompt": "A kitchen timer dial split into alternating solid red and white wedges — four focused sprints and short rests arranged around the clock face. Structured rhythm made visible."
+  },
+  {
+    "name": "Getting Things Done (GTD)",
+    "visual_prompt": "A tangle of loose thought-bubbles funneling down into a single clean inbox tray, leaving the space above empty and clear. Mental clutter captured into a trusted system."
+  },
+  {
+    "name": "Time Blocking",
+    "visual_prompt": "A day-view calendar grid with every hour filled by a solid colored block — no white space, no gaps. Every minute assigned a purpose."
+  },
+  {
+    "name": "Eat the Frog",
+    "visual_prompt": "A bold frog sitting front and center at the top of a task list, circled and checked off, while the remaining smaller items wait below. The hardest thing done first."
+  },
+  {
+    "name": "Two-Minute Rule",
+    "visual_prompt": "A small hourglass with just two grains of sand remaining above the neck, next to a task card being swept directly into a done pile. Tiny effort, immediate action."
+  },
+  {
+    "name": "Batching",
+    "visual_prompt": "Three distinct piles of identical items grouped by type — envelopes in one stack, gears in another, phone icons in a third — each processed as a single block. Like tasks clustered together."
+  },
+  {
+    "name": "Deep Work",
+    "visual_prompt": "A lone figure submerged beneath a calm water surface, completely isolated from the noise and ripples above. Undisturbed depth below a distracted surface."
+  },
+  {
+    "name": "Flow State",
+    "visual_prompt": "A smooth curve rising through a sweet-spot corridor between two labeled zones — boredom below and anxiety above — with a glowing point riding exactly along the optimal channel. Challenge and skill in perfect balance."
+  },
+  {
+    "name": "SMART Goals",
+    "visual_prompt": "A blurry circle sharpening into a crisp bullseye target as five labeled tick marks (S, M, A, R, T) along a lens ring snap into focus. Vague intention refined to a precise mark."
+  },
+  {
+    "name": "OKRs (Objectives and Key Results)",
+    "visual_prompt": "A large directional compass needle pointing to an objective at the top, with three smaller ruler-marked bars beneath it showing measurable progress increments. Direction paired with proof."
+  },
+  {
+    "name": "North Star Metric",
+    "visual_prompt": "A single bright star centered above a cluster of dimmer scattered stars, with all arrows on the chart below converging toward it. One guiding light pulling all vectors."
+  },
+  {
+    "name": "Porter's Five Forces",
+    "visual_prompt": "A central circle labeled 'rivalry' surrounded by four bold arrows pressing inward from the top, bottom, left, and right — each representing a competitive force. Structural pressure converging from every direction."
+  },
+  {
+    "name": "SWOT Analysis",
+    "visual_prompt": "A clean 2x2 grid divided into four quadrants — two shaded on the left (internal) and two open on the right (external) — with plus signs above and minus signs below. Strategic inventory mapped on a single square."
+  },
+  {
+    "name": "Blue Ocean Strategy",
+    "visual_prompt": "A crowded red sea of overlapping fish giving way to a wide open calm blue expanse on the right, with a single boat sailing into the uncontested space. Escaping bloody competition into clear waters."
+  },
+  {
+    "name": "BCG Matrix (Growth-Share Matrix)",
+    "visual_prompt": "A 2x2 grid with circles of varying sizes in each quadrant — a star top-left, a cow bottom-left, a question mark top-right, a small dog bottom-right. Portfolio positions mapped by growth and share."
+  },
+  {
+    "name": "Jobs to Be Done (JTBD)",
+    "visual_prompt": "A drill bit next to a clean hole in a wall — the tool set aside, the hole (the actual job) illuminated. The purchased object and the real purpose it served, separated."
+  },
+  {
+    "name": "Lean Canvas",
+    "visual_prompt": "A compact single-page grid divided into nine labeled cells, with one central cell highlighted as the core problem. A lean blueprint replacing a thick stack of documents."
+  },
+  {
+    "name": "Minimum Viable Product (MVP)",
+    "visual_prompt": "A simple skateboard beside a ghosted luxury car outline — the skateboard is solid and complete, the car barely sketched. Smallest complete thing versus the full vision."
+  },
+  {
+    "name": "Build-Measure-Learn",
+    "visual_prompt": "Three icons — a wrench, a ruler, and a lightbulb — connected by curved arrows cycling clockwise into a tight loop. Each node feeds the next in continuous rotation."
+  },
+  {
+    "name": "Flywheel Effect",
+    "visual_prompt": "A heavy circular wheel with a single arrow pushing it at the rim, momentum lines streaking behind it as it gains speed. Slow start, self-sustaining spin."
+  },
+  {
+    "name": "Compounding",
+    "visual_prompt": "A line graph curving exponentially upward — nearly flat at the left, then sweeping sharply skyward at the right. The dramatic curve of time multiplying small gains."
+  },
+  {
+    "name": "Theory of Constraints (TOC)",
+    "visual_prompt": "A pipeline with several wide segments and one dramatically narrow pinch point in the middle, flow accumulating before the bottleneck. One constraint governs all throughput."
+  },
+  {
+    "name": "Bottleneck Analysis",
+    "visual_prompt": "A series of parallel lanes all converging into a single narrow funnel neck, with pressure arrows pushing from above. One constriction point controlling the entire flow."
+  },
+  {
+    "name": "Critical Path Method (CPM)",
+    "visual_prompt": "A network of task nodes connected by arrows, with one chain highlighted in bold from start to finish while other paths are faded. The longest chain glows as the true constraint."
+  },
+  {
+    "name": "PDCA Cycle (Plan-Do-Check-Act)",
+    "visual_prompt": "Four quadrant segments of a circle — each labeled with an icon: pencil, gear, magnifier, arrow — rotating clockwise as a continuous wheel. Structured iteration made visible."
+  },
+  {
+    "name": "Wardley Mapping",
+    "visual_prompt": "A 2D grid with an x-axis from genesis to commodity and a y-axis of visibility, with components plotted as dots connected by a value chain. Strategic landscape as terrain map."
+  },
+  {
+    "name": "Ansoff Matrix",
+    "visual_prompt": "A 2x2 grid with axes labeled Products and Markets, each quadrant shaded in progressively darker tones from top-left (safe) to bottom-right (risky). Risk gradient across growth choices."
+  },
+  {
+    "name": "McKinsey 7S Framework",
+    "visual_prompt": "Seven circles arranged in a hexagonal honeycomb with one central circle, all connected by lines — a tightly interlocked molecular structure. Change one node, all others shift."
+  },
+  {
+    "name": "PESTLE Analysis",
+    "visual_prompt": "Six equal-sized tiles arranged in a 2x3 grid, each with a distinct symbol — a flag, a coin, a person, a circuit, a gavel, a leaf. Environmental forces as a scanning radar grid."
+  },
+  {
+    "name": "Value Chain Analysis",
+    "visual_prompt": "A horizontal chain of linked blocks flowing left to right, with one link highlighted in gold to mark where competitive advantage is built. Value accumulating link by link."
+  },
+  {
+    "name": "Theory of Constraints — Drum-Buffer-Rope",
+    "visual_prompt": "A drumbeat symbol at center, a buffer stock of circles before it, and a rope tied to the entry point of a pipeline — all three elements connected in a single production flow. Constraint-paced rhythm."
+  },
+  {
+    "name": "Hedgehog Concept",
+    "visual_prompt": "Three overlapping circles forming a Venn diagram — passion, best-at, and economic engine — with a single bright intersection dot at the center. Clarity emerging from triple overlap."
+  },
+  {
+    "name": "Kanban",
+    "visual_prompt": "A three-column board — To Do, In Progress, Done — with colored cards visible in each column and a narrow WIP limit bar capping the middle column. Flow made visible with explicit constraints."
+  },
+  {
+    "name": "Agile / Scrum",
+    "visual_prompt": "A short curved sprint arc with a flag at the end, followed by another arc beginning again — a series of small looping dashes progressing forward. Iterative momentum in short bursts."
+  },
+  {
+    "name": "PDSA Cycle (Plan-Do-Study-Act)",
+    "visual_prompt": "A four-phase circular wheel identical to PDCA but with a microscope icon replacing the checkmark in the third quadrant — emphasizing deep study over simple verification."
+  },
+  {
+    "name": "Unit Economics",
+    "visual_prompt": "A single customer silhouette with two vertical bars beside it — one for revenue, one for cost — showing the margin gap at the individual unit level. Profitability zoomed to one."
+  },
+  {
+    "name": "Network Effects",
+    "visual_prompt": "A small cluster of three nodes connected by lines that rapidly expands outward — each new node doubles the visible connections, forming a dense web. The outer nodes glow brighter than the center, showing value growing at the edges."
+  },
+  {
+    "name": "Disruption Theory (Disruptive Innovation)",
+    "visual_prompt": "A small wedge-shaped arrow entering from the bottom-left of a large established block, angling upward and through it. The incumbent block cracks from below as the smaller shape rises past it."
+  },
+  {
+    "name": "Technology Adoption Lifecycle (Crossing the Chasm)",
+    "visual_prompt": "A bell curve split by a visible gap — a broken chasm — in the early segment, with a small figure mid-leap across the divide. The left peak is labeled with early adopters, the right mass is the unreached majority."
+  },
+  {
+    "name": "Competitive Moat",
+    "visual_prompt": "A castle or fortress surrounded by a wide water-filled moat, viewed from above. A single bridge is the only crossing point, emphasizing the structural barrier encircling a protected inner position."
+  },
+  {
+    "name": "Pre-mortem Analysis",
+    "visual_prompt": "A timeline arrow pointing right toward a project goal, but above it a ghosted cracked version of the same arrow runs in reverse — dotted, broken — tracing backward from failure to origin. Past and imagined future collapse into a single diagnostic path."
+  },
+  {
+    "name": "Law of Diminishing Returns",
+    "visual_prompt": "A curve that rises steeply at first then flattens to near-horizontal, with evenly spaced vertical input bars below it — each bar the same width but the gained height between them shrinks to almost nothing. The inflection point is marked with a subtle dot."
+  },
+  {
+    "name": "Platform Business Model",
+    "visual_prompt": "Two groups of figures on opposite sides connected through a central hub or bridge platform beneath them — arrows flow in both directions across the platform. The platform sits lower, supporting the exchange without being either endpoint."
+  }
+]
